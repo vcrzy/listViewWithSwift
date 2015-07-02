@@ -1,2 +1,2 @@
-# listViewWithSwift
-Basic implementation of the Swift ListView
+# ListView With Swift
+Basic implementation of a ListView with Swift
