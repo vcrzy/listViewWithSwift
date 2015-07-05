@@ -31,7 +31,7 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        var celula = tableView.dequeueReusableCellWithIdentifier("Celula", forIndexPath: indexPath) as! CustomTableViewCell
+        var celula = (tableView.dequeueReusableCellWithIdentifier("Celula", forIndexPath: indexPath) as! CustomTableViewCell)
         
         celula.descricao.text = pessoas[indexPath.row]
         
